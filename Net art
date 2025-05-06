@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Bunny Page!</h1>
+        <img src="https://via.placeholder.com/150/FFB6C1/000000?text=Bunny" alt="Bunny" class="bunny-image">
+        <button class="start-button" onclick="start()">Click to begin</button>
+    </div>
+
+    <script>
+        function start() {
+            alert("Let's begin!");
+        }
+    </script>
+</body>
+</html>
